@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="live1.jpg" type="image/x-icon">
+    <title>the.Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>City Name (Country)</h2>
+            <h6>Temperature: 25°C</h6>
+            <h6>Wind: 5 M/S</h6>
+            <h6>Humidity: 80%</h6>
+          </div>
+          <div class="icon">
+            <img src="download.jpg" alt="Weather Icon">
+            <h6>Clear Sky</h6>
+          </div>
+        </div>
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>Day 1</h3>
+              <img src="live1.jpg" alt="Forecast Icon">
+              <h6>Temp: 22°C</h6>
+              <h6>Wind: 3 M/S</h6>
+              <h6>Humidity: 70%</h6>
+            </li>
+            <li class="card">
+              <h3>Day 2</h3>
+              <img src="live1.jpg" alt="Forecast Icon">
+              <h6>Temp: 24°C</h6>
+              <h6>Wind: 4 M/S</h6>
+              <h6>Humidity: 65%</h6>
+            </li>
+            <li class="card">
+              <h3>Day 3</h3>
+              <img src="live1.jpg" alt="Forecast Icon">
+              <h6>Temp: 26°C</h6>
+              <h6>Wind: 6 M/S</h6>
+              <h6>Humidity: 75%</h6>
+            </li>
+            <li class="card">
+              <h3>Day 4</h3>
+              <img src="live1.jpg" alt="Forecast Icon">
+              <h6>Temp: 28°C</h6>
+              <h6>Wind: 7 M/S</h6>
+              <h6>Humidity: 68%</h6>
+            </li>
+            <li class="card">
+              <h3>Day 5</h3>
+              <img src="live1.jpg" alt="Forecast Icon">
+              <h6>Temp: 30°C</h6>
+              <h6>Wind: 8 M/S</h6>
+              <h6>Humidity: 60%</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
